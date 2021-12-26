@@ -1,0 +1,20 @@
+recaptcha v3
+
+Site key> 6LceBLwdAAAAACNDgnR6md-SYwZwlAhw8OuvBZ62
+Site> tradesinpeace.com
+Secret key> 6LceBLwdAAAAAEu28zlnXwFSmCUhjVBed_XgHrAH
+
+recaptcha v2
+Site key> 6Le5E7wdAAAAALPsqOlBlEwM1mpA4GGsBRHXyNiD
+Site> tradesinpeace.com
+Secret key> 6Le5E7wdAAAAAGg3edGn2xlv-POA0oRFK65YPEky
+
+recaptcha v2 localhost
+Site key> 6LdjHLwdAAAAAOGnR1oyu7Omn_4P7Dqzndx28j-Y
+Site> localhost
+Secret key> 6LdjHLwdAAAAAE7kFjBXhgzOG3Iuagr796y1ZrWl
+
+recaptcha v3 localhost
+Site key> 6LfOJbwdAAAAADWGnF7qcJEhWOv1nYH3bRNo3Jx6
+Site> localhost
+Secret key> 6LfOJbwdAAAAAG2iRoWyQuuSg0bkIXBBquPb2v3w

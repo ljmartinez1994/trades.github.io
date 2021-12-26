@@ -1,0 +1,239 @@
+/* You can add global styles to this file, and also import other style files */
+// @import '~bootstrap/scss/bootstrap';
+
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.min.css');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700');
+
+@import '~admin-lte/plugins/fontawesome-free/css/all.min.css';
+@import '~admin-lte/plugins/icheck-bootstrap/icheck-bootstrap.min.css';
+@import '~admin-lte/dist/css/adminlte.min.css';
+
+@import '~@swimlane/ngx-datatable/index.css';
+@import '~@swimlane/ngx-datatable/themes/bootstrap.scss';
+@import '~@swimlane/ngx-datatable/assets/icons.css';
+
+@import '~ngx-toastr/toastr';
+
+/* angular-cli file: src/styles.css */
+@import "../node_modules/angular-calendar/css/angular-calendar.css";
+
+@import 'flatpickr/dist/flatpickr.css';
+
+@import '~@sweetalert2/theme-borderless/borderless.scss';
+
+.myselect{
+  height: 75%;
+}
+
+.mymarginright {
+  margin-right: 10px;
+}
+.blacktext {
+  color: black
+}
+
+.datatable-header-cell
+{
+   display: flex !important;
+   align-items: center !important;
+}
+
+.divright {
+  margin-left: auto;
+  margin-right: 0;
+  float: right;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  opacity: 0;
+  transition: all .2s ease-in-out;
+}
+
+.show-scrollTop {
+  opacity: 1;
+  transition: all .2s ease-in-out;
+}
+
+.reddot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.yellowdot {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.greendot {
+  height: 25px;
+  width: 25px;
+  background-color: lawngreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bluedot {
+  height: 25px;
+  width: 25px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+// Class
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+
+//@import '~materialize-css/dist/css/materialize.min.css';
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.user-menu > .nav-link {
+    cursor: pointer;
+}
+
+.user-menu > .nav-link:after {
+    content: none;
+}
+
+.user-menu > .dropdown-menu {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0;
+    width: 280px;
+}
+
+.user-menu > .dropdown-menu,
+.user-menu > .dropdown-menu > .user-body {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.user-menu > .dropdown-menu > li.user-header {
+    height: 175px;
+    padding: 10px;
+    text-align: center;
+}
+
+.user-menu > .dropdown-menu > li.user-header > img {
+    z-index: 5;
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-menu > .dropdown-menu > li.user-header > p {
+    z-index: 5;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.user-menu > .dropdown-menu > li.user-header > p > small {
+    display: block;
+    font-size: 12px;
+}
+
+.user-menu > .dropdown-menu > .user-body {
+    border-bottom: 1px solid #495057;
+    border-top: 1px solid #dee2e6;
+    padding: 15px;
+}
+
+.user-menu > .dropdown-menu > .user-body::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+@media (min-width: 576px) {
+    .user-menu > .dropdown-menu > .user-body a {
+        background: #ffffff !important;
+        color: #495057 !important;
+    }
+}
+
+.user-menu > .dropdown-menu > .user-footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.user-menu > .dropdown-menu > .user-footer::after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.user-menu > .dropdown-menu > .user-footer .btn-default {
+    color: #6c757d;
+}
+
+@media (min-width: 576px) {
+    .user-menu > .dropdown-menu > .user-footer .btn-default:hover {
+        background-color: #f8f9fa;
+    }
+}
+
+.user-menu .user-image {
+    border-radius: 50%;
+    float: left;
+    height: 2.1rem;
+    margin-right: 10px;
+    margin-top: -2px;
+    width: 2.1rem;
+}
+
+@media (min-width: 576px) {
+    .user-menu .user-image {
+        float: none;
+        line-height: 10px;
+        margin-right: 0.4rem;
+        margin-top: -8px;
+    }
+}
+
+.user-menu .user-image {
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0;
+    margin-left: -8px;
+}
+
+.marginbottom{
+  margin-bottom: 10px;
+}
+

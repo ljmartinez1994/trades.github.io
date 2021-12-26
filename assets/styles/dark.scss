@@ -1,0 +1,80 @@
+/*! `Custom` Bootstrap 4 theme */
+$theme: "dark" !default
+
+@import url(https://fonts.googleapis.com/css?family=Muli:200,300,400,700);
+$font-family-base:Muli;
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,400,700);
+$headings-font-family:Nunito;
+
+$white:#ddd !default;
+$gray-300:#6e6e6f !default;
+$gray-400:#444445 !default;
+$gray-700:#2d2d2f !default;
+$gray-700:rgba(50,50,50,0.9) !default;
+$gray-800:#1d1d1f !default;
+$gray-900:#0e0e0f !default;
+$primary:#161616 !default;
+$secondary:#1d1d1d !default;
+$success:#1c6821 !default;
+$danger:#FF304F !default;
+$info:#0F81C7 !default;
+$warning:#f0df0b !default;
+$light:#e8e8e8 !default;
+$dark:#000000 !default;
+$enable-shadows:true !default;
+
+$body-bg:#020202 !default;
+$body-color:#cccccc !default;
+$link-color:#f0f0f0 !default;
+
+/*! Import Bootstrap 4 variables */
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+$link-hover-color:darken($link-color,20%) !default;
+$navbar-dark-hover-color:$white !default;
+$navbar-light-hover-color:$gray-800 !default;
+$navbar-light-active-color:$gray-800 !default;
+$input-bg:$gray-300 !default;
+$card-border-color:rgba($black,0.6) !default;
+$card-cap-bg:lighten($gray-800,10%) !default;
+$card-bg:lighten($gray-700,4%) !default;
+$nav-divider-color:$gray-500 !default;
+$nav-tabs-link-active-color:$gray-200 !default;
+$list-group-bg:lighten($body-bg,5%) !default;
+$list-group-border-color:rgba($black,0.6) !default;
+$list-group-hover-bg:lighten($body-bg,10%) !default;
+$list-group-active-color:$white !default;
+$list-group-active-bg:$list-group-hover-bg !default;
+$list-group-active-border-color:$list-group-border-color !default;
+$list-group-disabled-color:$gray-800 !default;
+$list-group-disabled-bg:$black !default;
+$list-group-active-color:#fff !default;
+$list-group-action-color:#eee !default;
+$list-group-action-hover-color:#fff !default;
+$component-active-color:#eee !default;
+
+$modal-content-bg:$gray-800 !default;
+$jumbotron-bg:$gray-900 !default;
+$dropdown-bg:$gray-800 !default;
+$dropdown-link-color:$gray-200 !default;
+$breadcrumb-bg:$gray-900 !default; 
+$pagination-bg:$gray-900 !default; 
+$progress-bg:$gray-300 !default;
+
+$input-bg:$gray-800 !default;
+$input-focus-bg:$gray-900 !default;
+$input-disabled-bg:#222 !default;
+$input-color:$white !default;
+$input-focus-color:$gray-200 !default;
+
+$alert-bg-level:-2 !default;
+$alert-border-level:-4 !default;
+$alert-color-level:-8 !default;
+
+@import "bootstrap";
+
+@each $color, $value in $theme-colors {
+  @include table-row-variant($color, theme-color-level($color, -2));
+}
+
+
